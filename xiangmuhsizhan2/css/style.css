@@ -1,0 +1,292 @@
+body {
+	font-family: Microsoft "Microsoft YaHei", sans-serif;
+}
+
+.mai-icon {
+	background: rgb(64, 210, 177);
+	color: #fff;
+	border-radius: 50%;
+	min-width: 40px;
+	min-height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin-right: 20px;
+}
+
+
+/*Ԥ�� ����*/
+
+.navbar-default {
+	background-color: #fff;
+	border: none;
+	box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.25);
+}
+
+.navbar-default .navbar-brand {
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 8px;
+	color: #40D2B1;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-size: 16px;
+	font-weight: bold;
+	color: #666;
+	min-height: 70px;
+	line-height: 35px;
+}
+
+.navbar-toggle {
+	margin-top: 17px;
+}
+
+.navbar-default .navbar-toggle:hover {
+	border-color: #40D2B1;
+	background-color: rgb(69, 210, 184);
+}
+
+
+/*��һ�� ���?? #home*/
+
+#home {
+	background: url("../img/home-bg.jpg") no-repeat;
+	background-size: cover;
+	color: #fff;
+	margin-top: 60px;
+	text-align: center;
+	min-width: 100%;
+}
+
+.lvjing {
+	width: 100%;
+	min-height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	padding: 90px 0;
+}
+
+#home h1 {
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 25px;
+}
+
+#home p {
+	font-weight: 400;
+	line-height: 35px;
+}
+
+#home img {
+	margin-top: 30px;
+	display: inline-block;
+}
+
+
+/*�ڶ��� ��̳ bbs*/
+
+#bbs {
+	padding: 80px 0;
+	text-align: center;
+}
+
+#bbs .col-md-4 {
+	padding: 15px;
+}
+
+#bbs .col-md-4:hover {
+	padding: 15px;
+	background: #f1f1f1;
+}
+
+#bbs a {
+	color: #212121;
+	text-decoration: none;
+}
+
+#bbs img {
+	margin: 0 auto;
+}
+
+#bbs h3 {
+	font-weight: bold;
+}
+
+
+/*������ HTML5 #html5*/
+
+#hrml5 {
+	background: #f8f8f8;
+	padding: 80px 0;
+}
+
+#hrml5 h2 {
+	font-weight: bold;
+	margin-top: 20px;
+	padding: 0;
+}
+
+#hrml5 p {
+	line-height: 40px;
+}
+
+
+/*������ HTML #html*/
+
+#hrml {
+	background: #fff;
+	padding: 80px 0;
+}
+
+#hrml h2 {
+	font-weight: bold;
+	margin-top: 12px;
+	padding: 0;
+}
+
+#hrml p {
+	line-height: 25px;
+}
+
+
+/*������ ���¿γ� #kuai*/
+
+#couse {
+	background: #f8f8f8;
+	padding: 80px 0;
+	text-align: center;
+}
+
+#couse h2 {
+	font-weight: bold;
+	padding-bottom: 60px;
+}
+
+.kuai {
+	background: #fff;
+	margin-bottom: 20px;
+}
+
+#couse .btn.btn-default:hover {
+	color: #fff;
+	background: #40d2b1;
+	transition: all 0.3s linear;
+}
+
+#couse .btn {
+	border: 1px solid #40d2b1;
+	color: #40d2b1;
+	border-radius: 0px;
+	margin: 20px auto 30px;
+	padding: 8px 40px;
+}
+
+.kuai img {
+	margin: 0 auto;
+}
+
+
+/*������ APP���� #app*/
+
+.col-md-6 h2 {
+	padding: 104px 0 42px;
+	font-weight: bold;
+}
+
+.col-md-6 p {
+	line-height: 20px;
+	font-weight: bold;
+}
+
+#app2 {
+	padding-top: 81px;
+	padding-bottom: 81px;
+}
+
+#app1 button {
+	margin-right: 6px;
+	min-width: 147px;
+	min-height: 34px;
+	color: #fff;
+	background: #40d2b1;
+	margin-bottom: 21px;
+	border-radius: 0;
+}
+
+
+/*������ ��ϵ���� #we*/
+
+#we {
+	background: url(../img/contact-bg.png);
+	background-size: cover;
+}
+
+#liv {
+	box-sizing: border-box;
+	width: 100%;
+	min-height: 100%;
+	background: rgba(0, 0, 0, 0.7);
+	padding-top: 60px;
+}
+
+#kuai1 {
+	margin-bottom: 100px;
+	color: #fff;
+}
+
+#kuai1 h2 {
+	margin: 0;
+	padding: 0;
+	margin-bottom: 29px;
+}
+
+#kuai1 p {
+	margin-bottom: 28px;
+}
+
+#kuai2 {
+	margin-bottom: 108px;
+}
+
+#xin {
+	min-height: 48px;
+}
+
+#you {
+	min-height: 48px;
+}
+
+#biao {
+	min-height: 49px;
+}
+
+#liu {
+	min-height: 92px;
+}
+
+#we input {
+	margin-bottom: 19px;
+	text-indent: 15px;
+	border-radius: 0;
+}
+
+#we textarea {
+	margin-bottom: 19px;
+	text-indent: 15px;
+	color: #989898;
+}
+
+#we button {
+	box-sizing: border-box;
+	background: #3fd1b0;
+	color: #fff;
+	font-size: 14px;
+}
+
+
+/*�ײ�*/
+
+footer {
+	display: block;
+	text-align: center;
+	margin: 28px auto;
+}
